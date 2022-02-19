@@ -1,0 +1,45 @@
+.rootContainer{
+  width: 100vw;
+}
+.carousel {
+  width: 98vw;
+  display: flex;
+  position: relative;
+  margin: 0px auto;
+}
+.carousel-img {
+  width: 100%;
+  display: none;
+  cursor: pointer;
+}
+.btn-carousel {
+  position: absolute;
+  top: 40%;
+}
+.btn-left {
+  left: -10;
+}
+.btn-right {
+  right: -10;
+}
+.deal-img{
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.nav-style > button {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-style {
+    display: flex;
+    flex-direction: column;
+  }
+  .carousel > .button {
+    width: 20px;
+    height: 20px;
+    font-size: 0.4rem;
+  }
+}
