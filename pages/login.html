@@ -1,0 +1,68 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cruxui-lib.netlify.app//Components/main.css"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+    <title>CALYX-ECOMM</title>
+  </head>
+  <body>
+    <div class="rootContainer lightMode">
+      <!-- NavBar -->
+      <div class="navbar p-2" style="z-index: 100">
+        <input id="menu-icon" type="checkbox" />
+        <label class="menu-label" for="menu-icon"></label>
+        <div class="nav-brand">
+          <div class="h3 text-bold color-primary box-3d p-1-x bg-secondary">
+            CALYX Mart
+          </div>
+        </div>
+      </div>
+      <!-- Signup -->
+      <div class="signUp-box border-secondary box-3d p-4">
+        <div class="h5 color-primary text-bold">Welcome Back</div>
+        <div class="color-primary text-small p-2-y">
+          Welcome Back user. Please fill the details below.
+        </div>
+        <label class="input-label">Email Id</label>
+        <div class="input-group">
+          <input
+            class="text-input"
+            type="text"
+            placeholder="  Enter email id..."
+          />
+        </div>
+
+        <label class="input-label">Password</label>
+        <div class="input-group">
+          <input class="text-input" id="password-input" type="text" />
+        </div>
+        <div class="flex-row space-between">
+          <div class="input-group">
+            <input
+              class="check-input"
+              type="checkbox"
+              id="show-password"
+              onclick="passwordToggle()"
+            />
+            <div class="input-check-title p-1-x">Show Password</div>
+          </div>
+          <div class="color-info"><a href="">Forgot Password</a></div>
+        </div>
+        <div class="flex-col align-center">
+            <button class="button button-secondary m-2 loginBtn">Login</button>
+            <div class="m-2">OR</div>
+            <div class="m-2">
+                <button class="button border-secondary"><img class="loginBtn" src="../assets/google_logo.png"/></button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="../script.js"></script>
+  </body>
+</html>

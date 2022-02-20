@@ -54,6 +54,9 @@
   min-height: 60vh;
   width: 50vw;
 }
+.loginBtn{
+  width:140px;
+}
 @media screen and (max-width: 768px) {
   .nav-style {
     display: flex;
