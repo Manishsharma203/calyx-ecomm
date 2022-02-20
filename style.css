@@ -49,6 +49,11 @@
 .space-between{
   justify-content: space-between;
 }
+.signUp-box{
+  margin: auto;
+  min-height: 60vh;
+  width: 50vw;
+}
 @media screen and (max-width: 768px) {
   .nav-style {
     display: flex;
@@ -58,5 +63,8 @@
     width: 20px;
     height: 20px;
     font-size: 0.4rem;
+  }
+  .signUp-box{
+    width: 80vw;
   }
 }

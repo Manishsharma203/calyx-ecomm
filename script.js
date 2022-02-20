@@ -1,3 +1,11 @@
+const passwordToggle = () => {
+  var passwordInput = document.querySelector("#password-input");
+  if (passwordInput.type === "text") {
+    passwordInput.type = "password";
+  } else {
+    passwordInput.type = "text";
+  }
+};
 var currentCarouselNumber = 0;
 const totalCarouselNumber =
   document.getElementsByClassName("carousel-img").length;
