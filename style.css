@@ -1,6 +1,6 @@
-.rootContainer{
+/* .rootContainer{
   width: 100vw;
-}
+} */
 .carousel {
   width: 98vw;
   display: flex;
@@ -30,6 +30,11 @@
 
 .nav-style > button {
   display: block;
+}
+
+.filter-sidebar,.content-listing{
+  height: 80vh;
+  overflow-y: auto;
 }
 
 @media screen and (max-width: 768px) {
